@@ -64,3 +64,5 @@ if user_input := st.chat_input("What would you like to know?"):
     st.session_state.messages.append({"role": "assistant", "content": response})
 
 # Add a footer with information about the chatbot
+st.markdown("---")
+st.markdown("This AI chatbot is powered by Google's Generative AI and LangChain.")
